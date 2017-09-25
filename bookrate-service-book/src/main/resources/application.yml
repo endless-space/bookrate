@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: bookrate-service-book
+    
+server:
+  port: 8051
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8050/eureka/
+
