@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: bookrate-dashboard
+    
+server:
+  port: 8060

@@ -1,6 +1,8 @@
 spring:
   application:
     name: bookrate-service-book
+  zipkin:
+    base-url: http://localhost:8061
     
 server:
   port: 8051
@@ -11,4 +13,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8050/eureka/
-

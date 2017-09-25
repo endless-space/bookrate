@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: bookrate-trace
+    
+server:
+  port: 8061

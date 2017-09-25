@@ -3,7 +3,7 @@ package com.endlessspace.bookrate.service.user.controller.reference;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient("bookrate-service-order")
+@FeignClient(name = "bookrate-service-order", fallback = OrderServiceFallback.class)
 public interface OrderService {
 
     @GetMapping("/consumer")

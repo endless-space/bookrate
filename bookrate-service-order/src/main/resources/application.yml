@@ -1,6 +1,8 @@
 spring:
   application:
     name: bookrate-service-order
+  zipkin:
+    base-url: http://localhost:8061
     
 server:
   port: 8052
